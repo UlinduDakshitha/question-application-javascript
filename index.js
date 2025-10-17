@@ -1,8 +1,8 @@
-  ///////////// Display name in the navbar ////////////////
+
 const username = localStorage.getItem('username') || 'name';
 document.querySelector('.navbar-text').textContent = `Hi, ${username}`;
 
-///////// Questions array ////////////////////////////////
+ 
 const questions = [
     {
         question: "What does HTML stand for?",
@@ -57,7 +57,7 @@ const questions = [
 ];
 
 let current = 0;
-let timeLeft = 30;  /////////// Timer in seconds ////////////
+let timeLeft = 30;   
 let timerInterval;
 let score = 0;
 
